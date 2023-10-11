@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assets/mariofundo.jpg);
+    background-size:1400px;
+    overflow-x:  hidden ;
+    
+}
+/* mario */
+.mario{
+    width: 70px;
+    position: relative;
+    top: 598px;
+    left: 10em;
+}
+#cano_baixo{
+    display: none;
+}
+
+@keyframes animacao_mario {
+    0%{
+    top:598px ;    
+    }
+    40%{
+    top:30em ;    
+    }
+    50%{
+    top:30em ;
+    }
+    60%{
+        top:30em ;
+    }
+    70%{
+        top:30em ;
+    }
+    70%{
+        top:30em ;
+    }
+    100%{
+        top: 598px;
+    }
+}
+
+/* header  */
+.div_contador{
+    display: flex;
+    flex-direction: end;
+    align-items: end;
+    margin-left:93vw ;
+}
+
+.contador{
+    color: white;
+    background-color: lightblue;
+    width:110px;
+}
+
+
+/* big cano */
+.big_cano{
+    height: 75px;
+    position: absolute;
+    top: 38.1em;
+    left: 220px;
+    animation: cano_grande_animacao 5s infinite linear;
+}
+    
+
+
+@keyframes cano_grande_animacao{
+    from{
+        left: 90%;
+    }to{
+        left: 0px;
+    }
+}

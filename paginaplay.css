@@ -1,0 +1,21 @@
+
+h1{
+    font-size: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.primeiro{
+    color: rgb(85, 85, 241);
+}
+.segundo{
+    color: rgb(220, 55, 55);
+}
+img{
+    height: 100px;
+}
